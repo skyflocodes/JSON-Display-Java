@@ -1,0 +1,139 @@
+{
+  "Players": [
+    {
+      "name": "Chris Boucher",
+      "num": 25,
+      "pos": "PF",
+      "weight": 200,
+      "born": 1993,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628449.png",
+      "college": "Oregon"
+    },
+    {
+      "name": "Dewan Hernandez",
+      "num": 20,
+      "pos": "FC",
+      "weight": 235,
+      "born": 1997,
+      "imgURL": "https://cdn.nba.net/nba-drupal-prod/2019-06/dewan-hernandez-mug_0.jpg",
+      "college": "Miami (Florida)"
+    },
+    {
+      "name": "Marc Gasol",
+      "num": 33,
+      "pos": "C",
+      "weight": 255,
+      "born": 1985,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201188.png",
+      "college": "Lausanne CS (TN)"
+    },
+    {
+      "name": "Malcolm Miller",
+      "num": 13,
+      "pos": "SF",
+      "weight": 210,
+      "born": 1993,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626259.png",
+      "college": "Holy Cross"
+    },
+    {
+      "name": "OG Anunoby",
+      "num": 3,
+      "pos": "F",
+      "weight": 215,
+      "born": 1998,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628384.png",
+      "college": "Indiana"
+    },
+    {
+      "name": "Serge Ibaka",
+      "num": 9,
+      "pos": "FC",
+      "weight": 235,
+      "born": 1990,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201586.png",
+      "college": "Spain"
+    },
+    {
+      "name": "Jessie Govan",
+      "num": 17,
+      "pos": "C",
+      "weight": 270,
+      "born": 1998,
+      "imgURL": "http://a.espncdn.com/combiner/i?img=/i/headshots/recruiting/ncb/players/full/169312.png",
+      "college": "Georgetown"
+    },
+    {
+      "name": "Kawhi Leonard",
+      "num": 2,
+      "pos": "SF",
+      "weight": 230,
+      "born": 1992,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png",
+      "college": "San Diego State"
+    },
+    {
+      "name": "Sagaba Konate",
+      "num": 15,
+      "pos": "FC",
+      "weight": 250,
+      "born": 1997,
+      "imgURL": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Konate_Sagaba_wv.jpg",
+      "college": "West Virginia"
+    },
+    {
+      "name": "Kyle Lowry",
+      "num": 7,
+      "pos": "PG",
+      "weight": 205,
+      "born": 1986,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200768.png",
+      "college": "Villanova"
+    },
+    {
+      "name": "Jordan Loyd",
+      "num": 99,
+      "pos": "SG",
+      "weight": 210,
+      "born": 1994,
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628070.png",
+      "college": "Indianapolis"
+    },
+    {
+      "name": "Fred VanVleet",
+      "num": 23,
+      "pos": "PG",
+      "weight": 195,
+      "born": 1994,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627832.png",
+      "college": "Wichita State"
+    },
+    {
+      "name": "Pascal Siakam",
+      "num": 43,
+      "pos": "PF",
+      "weight": 230,
+      "born": 1994,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627783.png",
+      "college": "New Mexico State"
+    },
+    {
+      "name": "Patrick McCaw",
+      "num": 22,
+      "pos": "SG",
+      "weight": 185,
+      "born": 1996,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627775.png",
+      "college": "UNLV"
+    },
+    {
+      "name": "Norman Powell",
+      "num": 24,
+      "pos": "SG",
+      "weight": 215,
+      "born": 1994,
+      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626181.png",
+      "college": "UCLA"
+    }
+  ]
+}
