@@ -1,11 +1,11 @@
-/*sets the css for the base of the ap*/
+/*sets the css for the base of the app*/
 .root {
     -fx-background-color: #282828;
 }
 
 .button{
     -fx-background-color: #3d3d3d;
-    -fx-text-fill: #e3d5c3;
-    -fx-border-color: #e3d5c3;
-    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-border-color: #c30e2e;
+    -fx-font-style: "Agency FB";
 }
