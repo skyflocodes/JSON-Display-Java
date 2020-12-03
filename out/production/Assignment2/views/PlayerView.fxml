@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TeamController" />
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="751.0" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TeamController">
+   <children>
+      <Label alignment="CENTER" layoutX="584.0" layoutY="1.0" prefHeight="173.0" prefWidth="153.0" text="00" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="140.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="29.0" prefHeight="118.0" prefWidth="575.0" text="PLAYER NAME" textAlignment="CENTER" textFill="#bc0000" textOverrun="CLIP" underline="true">
+         <font>
+            <Font name="Agency FB Bold" size="95.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="165.0" text="POSITION:" textFill="#bc0000">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="165.0" text="PLAYER COURT" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="209.0" text="BIRTH YEAR:" textFill="#bc0000">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="209.0" text="0000" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="165.0" text="WEIGHT:" textFill="#bc0000">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="401.0" layoutY="165.0" text="000lbs" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="209.0" text="AGE:" textFill="#bc0000">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="209.0" text="00" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="250.0" text="COLLEGE/UNIVERSITY:" textFill="#bc0000">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="250.0" text="PLAYER SCHOOL" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="80.0" layoutY="308.0" mnemonicParsing="false" onAction="#changeToTableView" prefHeight="108.0" prefWidth="427.0" text="RETURN TO ROSTER">
+         <font>
+            <Font name="Agency FB" size="57.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="239.0" fitWidth="181.0" layoutX="542.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../style/Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

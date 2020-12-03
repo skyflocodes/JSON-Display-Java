@@ -27,7 +27,7 @@
             <Font name="Agency FB" size="36.0" />
          </font>
       </Label>
-      <Button layoutX="502.0" layoutY="530.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="228.0" text="Select Highlighted Player">
+      <Button layoutX="502.0" layoutY="530.0" mnemonicParsing="false" onAction="#changeToChartView" prefHeight="40.0" prefWidth="228.0" text="Select Highlighted Player">
          <font>
             <Font name="Agency FB Bold" size="22.0" />
          </font>
