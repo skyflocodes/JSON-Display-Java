@@ -21,11 +21,20 @@ public class Player {
     }
 
     public void setNum(int num) {
-        this.num = num;
+        if (num>=0 && num<=100) {
+            this.num = num;
+        }
+        else{
+            throw new IllegalArgumentException("Number is invalid, Please pick a number from 0-100.");
+        }
     }
 
     public int getWeight() {
-        return weight;
+        if(weight>=120 && weight<=380) {
+            return weight;
+        }else{
+            throw new IllegalArgumentException("This player is either too heavy or too light for the nba, sorry.");
+        }
     }
 
     public void setWeight(int weight) {
@@ -37,7 +46,11 @@ public class Player {
     }
 
     public void setBorn(int born) {
-        this.born = born;
+        if (born>=1975 && born<=2002){
+            this.born = born;
+        }else{
+            throw new IllegalArgumentException("This player is either too old or too young for the nba, sorry.");
+        }
     }
 
     public String getName() {
@@ -45,7 +58,11 @@ public class Player {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if(name.matches("[A-z]*[-\\s]?[\\sA-z]*")){
+            this.name = name;
+        } else {
+            throw new IllegalArgumentException("Please input a name containing only A-z, spaces, and hyphens.");
+        }
     }
 
     public String getPos() {
@@ -53,7 +70,11 @@ public class Player {
     }
 
     public void setPos(String pos) {
-        this.pos = pos;
+        if (pos.equals("FrontCourt")  || pos.equals("BackCourt")){
+            this.pos = pos;
+        }else {
+            throw new IllegalArgumentException("Please input a proper position.");
+        }
     }
 
     public String getCollege() {
@@ -61,6 +82,10 @@ public class Player {
     }
 
     public void setCollege(String college) {
-        this.college = college;
+        if(college.matches("[A-z]*[-\\s]?[\\sA-z()]*")) {
+            this.college = college;
+        }else{
+            throw new IllegalArgumentException("Please input a college name containing only A-z, spaces, hyphens, and parenthesis.");
+        }
     }
 }

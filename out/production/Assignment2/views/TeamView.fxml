@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="1334.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PlayerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PlayerController">
    <children>
       <AnchorPane layoutX="534.0" layoutY="361.0" />
-      <Button layoutX="631.0" layoutY="578.0" mnemonicParsing="false" onAction="#changeToChartView" text="Chart View" />
-      <TableView fx:id="table" layoutX="40.0" layoutY="26.0" prefHeight="533.0" prefWidth="1261.0">
-        <columns>
-          <TableColumn fx:id="placeColumn" prefWidth="35.0" text="Place" />
-          <TableColumn fx:id="userColumn" prefWidth="96.0" text="User" />
-            <TableColumn fx:id="scoreColumn" prefWidth="84.0" text="Score" />
-            <TableColumn fx:id="gPUColumn" prefWidth="383.0" text="GPU" />
-            <TableColumn fx:id="cPUColumn" maxWidth="1.7976931348623157E308" prefWidth="659.0" text="CPU" />
-        </columns>
-      </TableView>
    </children>
 </AnchorPane>

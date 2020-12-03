@@ -3,7 +3,7 @@
     {
       "name": "Chris Boucher",
       "num": 25,
-      "pos": "PF",
+      "pos": "FrontCourt",
       "weight": 200,
       "born": 1993,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628449.png",
@@ -12,7 +12,7 @@
     {
       "name": "Dewan Hernandez",
       "num": 20,
-      "pos": "FC",
+      "pos": "FrontCourt",
       "weight": 235,
       "born": 1997,
       "imgURL": "https://cdn.nba.net/nba-drupal-prod/2019-06/dewan-hernandez-mug_0.jpg",
@@ -21,7 +21,7 @@
     {
       "name": "Marc Gasol",
       "num": 33,
-      "pos": "C",
+      "pos": "FrontCourt",
       "weight": 255,
       "born": 1985,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201188.png",
@@ -30,7 +30,7 @@
     {
       "name": "Malcolm Miller",
       "num": 13,
-      "pos": "SF",
+      "pos": "FrontCourt",
       "weight": 210,
       "born": 1993,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626259.png",
@@ -39,7 +39,7 @@
     {
       "name": "OG Anunoby",
       "num": 3,
-      "pos": "F",
+      "pos": "FrontCourt",
       "weight": 215,
       "born": 1998,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628384.png",
@@ -48,7 +48,7 @@
     {
       "name": "Serge Ibaka",
       "num": 9,
-      "pos": "FC",
+      "pos": "FrontCourt",
       "weight": 235,
       "born": 1990,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201586.png",
@@ -57,7 +57,7 @@
     {
       "name": "Jessie Govan",
       "num": 17,
-      "pos": "C",
+      "pos": "FrontCourt",
       "weight": 270,
       "born": 1998,
       "imgURL": "http://a.espncdn.com/combiner/i?img=/i/headshots/recruiting/ncb/players/full/169312.png",
@@ -66,7 +66,7 @@
     {
       "name": "Kawhi Leonard",
       "num": 2,
-      "pos": "SF",
+      "pos": "FrontCourt",
       "weight": 230,
       "born": 1992,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png",
@@ -75,7 +75,7 @@
     {
       "name": "Sagaba Konate",
       "num": 15,
-      "pos": "FC",
+      "pos": "FrontCourt",
       "weight": 250,
       "born": 1997,
       "imgURL": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Konate_Sagaba_wv.jpg",
@@ -84,7 +84,7 @@
     {
       "name": "Kyle Lowry",
       "num": 7,
-      "pos": "PG",
+      "pos": "BackCourt",
       "weight": 205,
       "born": 1986,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200768.png",
@@ -93,7 +93,7 @@
     {
       "name": "Jordan Loyd",
       "num": 99,
-      "pos": "SG",
+      "pos": "BackCourt",
       "weight": 210,
       "born": 1994,
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628070.png",
@@ -102,7 +102,7 @@
     {
       "name": "Fred VanVleet",
       "num": 23,
-      "pos": "PG",
+      "pos": "BackCourt",
       "weight": 195,
       "born": 1994,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627832.png",
@@ -111,7 +111,7 @@
     {
       "name": "Pascal Siakam",
       "num": 43,
-      "pos": "PF",
+      "pos": "FrontCourt",
       "weight": 230,
       "born": 1994,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627783.png",
@@ -120,7 +120,7 @@
     {
       "name": "Patrick McCaw",
       "num": 22,
-      "pos": "SG",
+      "pos": "BackCourt",
       "weight": 185,
       "born": 1996,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627775.png",
@@ -129,7 +129,7 @@
     {
       "name": "Norman Powell",
       "num": 24,
-      "pos": "SG",
+      "pos": "BackCourt",
       "weight": 215,
       "born": 1994,
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626181.png",
