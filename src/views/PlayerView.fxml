@@ -74,7 +74,7 @@
             <Font name="Agency FB" size="57.0" />
          </font>
       </Button>
-      <ImageView fitHeight="239.0" fitWidth="181.0" layoutX="542.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="playerPicture" fitHeight="239.0" fitWidth="181.0" layoutX="542.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../style/Logo.png" />
          </image>

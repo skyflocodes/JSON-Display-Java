@@ -3,6 +3,8 @@ package controllers;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import models.Player;
 import utils.SceneChange;
 
@@ -33,6 +35,9 @@ public class PlayerController implements Initializable {
     @FXML
     private Label collegeLabel;
 
+    @FXML
+    private ImageView playerPicture;
+
     private static Player selectedPlayer;
 
     public static void initData(Player player)
@@ -47,6 +52,7 @@ public class PlayerController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        playerPicture.setImage(new Image(selectedPlayer.getImgURL()));
         positionLabel.setText(selectedPlayer.getPos());
         birthLabel.setText(""+selectedPlayer.getBorn());
         weightLabel.setText(""+selectedPlayer.getWeight());
