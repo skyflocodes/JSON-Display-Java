@@ -2,6 +2,9 @@ package controllers;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ListView;
+import models.Player;
+import utils.JSONFileUtil;
 import utils.SceneChange;
 
 import java.io.IOException;
@@ -14,13 +17,15 @@ import java.util.ResourceBundle;
  */
 public class TeamController implements Initializable {
 
+    @FXML
+    private ListView<Player> playerListView;
     /**
      * changes scenes to table view
      * @param actionEvent
      * @throws IOException
      */
-    public void changeToTableView(javafx.event.ActionEvent actionEvent) throws IOException {
-        SceneChange.changeScene(actionEvent, "../views/TeamView.fxml", "RaptorsRoster - Select A Player");
+    public void changeView(javafx.event.ActionEvent actionEvent) throws IOException {
+        SceneChange.changeScene(actionEvent, "../views/PlayerView.fxml", "RaptorsRoster - Player Info");
     }
 
     /**
@@ -30,5 +35,6 @@ public class TeamController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        playerListView.getItems().addAll(JSONFileUtil.getRoster("Roster.json"));
     }
 }

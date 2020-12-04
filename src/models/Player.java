@@ -1,14 +1,26 @@
 package models;
 
-public class Player {
-    private int num;
-    private int weight;
-    private int born;
-    private String name;
-    private String pos;
-    private String college;
+import com.google.gson.annotations.SerializedName;
 
-    public Player(String name, int num, String pos, int weight, int born, String college){
+public class Player {
+
+    @SerializedName("num")
+    private int num;
+    @SerializedName("weight")
+    private int weight;
+    @SerializedName("born")
+    private int born;
+    @SerializedName("name")
+    private String name;
+    @SerializedName("pos")
+    private String pos;
+    @SerializedName("college")
+    private String college;
+    @SerializedName("imgURL")
+    private String imgURL;
+
+    public Player(String name, int num, String pos, int weight, int born, String college, String imgURL){
+        setImgURL(imgURL);
         setName(name);
         setNum(num);
         setPos(pos);
@@ -16,6 +28,15 @@ public class Player {
         setBorn(born);
         setCollege(college);
     }
+
+    public String getImgURL() {
+        return imgURL;
+    }
+
+    public void setImgURL(String imgURL) {
+        this.imgURL = imgURL;
+    }
+
     public int getNum() {
         return num;
     }
@@ -87,5 +108,10 @@ public class Player {
         }else{
             throw new IllegalArgumentException("Please input a college name containing only A-z, spaces, hyphens, and parenthesis.");
         }
+    }
+
+    @Override
+    public String toString() {
+        return name + " (" + num + ")";
     }
 }

@@ -18,8 +18,8 @@ public class PlayerController implements Initializable {
      * @param actionEvent
      * @throws IOException
      */
-    public void changeToChartView(javafx.event.ActionEvent actionEvent) throws IOException {
-        SceneChange.changeScene(actionEvent, "../views/PlayerView.fxml", "RaptorsRoster - Player Info");
+    public void changeView(javafx.event.ActionEvent actionEvent) throws IOException {
+        SceneChange.changeScene(actionEvent, "../views/TeamView.fxml", "RaptorsRoster - Select A Player");
     }
 
 

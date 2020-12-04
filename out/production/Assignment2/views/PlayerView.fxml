@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="750.0" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TeamController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="750.0" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PlayerController">
    <children>
       <Label alignment="CENTER" layoutX="584.0" layoutY="1.0" prefHeight="173.0" prefWidth="153.0" text="00" textFill="WHITE">
          <font>
@@ -69,7 +69,7 @@
             <Font name="Agency FB Bold" size="24.0" />
          </font>
       </Label>
-      <Button layoutX="80.0" layoutY="308.0" mnemonicParsing="false" onAction="#changeToTableView" prefHeight="108.0" prefWidth="427.0" text="RETURN TO ROSTER">
+      <Button layoutX="80.0" layoutY="308.0" mnemonicParsing="false" onAction="#changeView" prefHeight="108.0" prefWidth="427.0" text="RETURN TO ROSTER">
          <font>
             <Font name="Agency FB" size="57.0" />
          </font>

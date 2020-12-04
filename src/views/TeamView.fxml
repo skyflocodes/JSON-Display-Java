@@ -8,10 +8,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PlayerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TeamController">
    <children>
       <AnchorPane layoutX="534.0" layoutY="361.0" />
-      <ListView layoutX="22.0" layoutY="150.0" prefHeight="217.0" prefWidth="437.0" />
+      <ListView fx:id="playerListView" layoutX="22.0" layoutY="150.0" prefHeight="217.0" prefWidth="437.0" />
       <ImageView fitHeight="323.0" fitWidth="203.0" layoutX="508.0" layoutY="38.0" pickOnBounds="true">
          <image>
             <Image url="@../style/Trophy.png" />
@@ -27,7 +27,7 @@
             <Font name="Agency FB" size="36.0" />
          </font>
       </Label>
-      <Button layoutX="483.0" layoutY="381.0" mnemonicParsing="false" onAction="#changeToChartView" prefHeight="40.0" prefWidth="228.0" text="Select Highlighted Player">
+      <Button layoutX="483.0" layoutY="381.0" mnemonicParsing="false" onAction="#changeView" prefHeight="40.0" prefWidth="228.0" text="Select Highlighted Player">
          <font>
             <Font name="Agency FB Bold" size="22.0" />
          </font>
