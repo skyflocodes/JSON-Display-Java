@@ -6,7 +6,7 @@
       "pos": "FrontCourt",
       "weight": 200,
       "born": 1993,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628449.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628449.png",
       "college": "Oregon"
     },
     {
@@ -24,7 +24,7 @@
       "pos": "FrontCourt",
       "weight": 255,
       "born": 1985,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201188.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201188.png",
       "college": "Lausanne CS (TN)"
     },
     {
@@ -33,7 +33,7 @@
       "pos": "FrontCourt",
       "weight": 210,
       "born": 1993,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626259.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626259.png",
       "college": "Holy Cross"
     },
     {
@@ -42,7 +42,7 @@
       "pos": "FrontCourt",
       "weight": 215,
       "born": 1998,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628384.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628384.png",
       "college": "Indiana"
     },
     {
@@ -51,7 +51,7 @@
       "pos": "FrontCourt",
       "weight": 235,
       "born": 1990,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201586.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201586.png",
       "college": "Spain"
     },
     {
@@ -60,7 +60,7 @@
       "pos": "FrontCourt",
       "weight": 270,
       "born": 1998,
-      "imgURL": "http://a.espncdn.com/combiner/i?img=/i/headshots/recruiting/ncb/players/full/169312.png",
+      "imgURL": "https://a.espncdn.com/combiner/i?img=/i/headshots/recruiting/ncb/players/full/169312.png",
       "college": "Georgetown"
     },
     {
@@ -69,7 +69,7 @@
       "pos": "FrontCourt",
       "weight": 230,
       "born": 1992,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png",
       "college": "San Diego State"
     },
     {
@@ -87,7 +87,7 @@
       "pos": "BackCourt",
       "weight": 205,
       "born": 1986,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200768.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200768.png",
       "college": "Villanova"
     },
     {
@@ -105,7 +105,7 @@
       "pos": "BackCourt",
       "weight": 195,
       "born": 1994,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627832.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627832.png",
       "college": "Wichita State"
     },
     {
@@ -114,7 +114,7 @@
       "pos": "FrontCourt",
       "weight": 230,
       "born": 1994,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627783.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627783.png",
       "college": "New Mexico State"
     },
     {
@@ -123,7 +123,7 @@
       "pos": "BackCourt",
       "weight": 185,
       "born": 1996,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627775.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627775.png",
       "college": "UNLV"
     },
     {
@@ -132,7 +132,7 @@
       "pos": "BackCourt",
       "weight": 215,
       "born": 1994,
-      "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626181.png",
+      "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626181.png",
       "college": "UCLA"
     }
   ]

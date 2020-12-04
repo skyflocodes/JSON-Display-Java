@@ -112,6 +112,6 @@ public class Player {
 
     @Override
     public String toString() {
-        return name + " (" + num + ")";
+        return "Number " + num + ", " + name + ". From "+ college + ".";
     }
 }
