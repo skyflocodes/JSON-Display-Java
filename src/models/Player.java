@@ -19,6 +19,16 @@ public class Player {
     @SerializedName("imgURL")
     private String imgURL;
 
+    /**
+     * player object
+     * @param name
+     * @param num
+     * @param pos
+     * @param weight
+     * @param born
+     * @param college
+     * @param imgURL
+     */
     public Player(String name, int num, String pos, int weight, int born, String college, String imgURL){
         setImgURL(imgURL);
         setName(name);
@@ -29,18 +39,34 @@ public class Player {
         setCollege(college);
     }
 
+    /**
+     * returns the players image url
+     * @return
+     */
     public String getImgURL() {
         return imgURL;
     }
 
+    /**
+     * sets the players image url
+     * @param imgURL
+     */
     public void setImgURL(String imgURL) {
         this.imgURL = imgURL;
     }
 
+    /**
+     * returns players number
+     * @return
+     */
     public int getNum() {
         return num;
     }
 
+    /**
+     * if the number is valid this sets the players number to it
+     * @param num
+     */
     public void setNum(int num) {
         if (num>=0 && num<=100) {
             this.num = num;
@@ -50,22 +76,38 @@ public class Player {
         }
     }
 
+    /**
+     * returns player weight
+     * @return
+     */
     public int getWeight() {
-        if(weight>=120 && weight<=380) {
             return weight;
+    }
+
+    /**
+     * sets players weight if it fits within the range
+     * @param weight
+     */
+    public void setWeight(int weight) {
+        if(weight>=120 && weight<=380) {
+        this.weight = weight;
         }else{
             throw new IllegalArgumentException("This player is either too heavy or too light for the nba, sorry.");
         }
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
+    /**
+     * returns players birth year
+     * @return
+     */
     public int getBorn() {
         return born;
     }
 
+    /**
+     * sets players birth year if it fits within the range
+     * @param born
+     */
     public void setBorn(int born) {
         if (born>=1975 && born<=2002){
             this.born = born;
@@ -74,10 +116,18 @@ public class Player {
         }
     }
 
+    /**
+     * returns players name
+     * @return
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * sets players name if it follows the allowed characters
+     * @param name
+     */
     public void setName(String name) {
         if(name.matches("[A-z]*[-\\s]?[\\sA-z]*")){
             this.name = name;
@@ -86,10 +136,18 @@ public class Player {
         }
     }
 
+    /**
+     * gets players position
+     * @return
+     */
     public String getPos() {
         return pos;
     }
 
+    /**
+     * checks if their position is either front or back court then sets it
+     * @param pos
+     */
     public void setPos(String pos) {
         if (pos.equals("FrontCourt")  || pos.equals("BackCourt")){
             this.pos = pos;
@@ -98,10 +156,18 @@ public class Player {
         }
     }
 
+    /**
+     * gets players college
+     * @return
+     */
     public String getCollege() {
         return college;
     }
 
+    /**
+     * sets players college if it follows the allowed characters
+     * @param college
+     */
     public void setCollege(String college) {
         if(college.matches("[A-z]*[-\\s]?[\\sA-z()]*")) {
             this.college = college;
@@ -110,6 +176,10 @@ public class Player {
         }
     }
 
+    /**
+     * makes a readable string for displaying player information
+     * @return
+     */
     @Override
     public String toString() {
         return "Number " + num + ", " + name + ". From "+ college + ".";

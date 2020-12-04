@@ -40,16 +40,29 @@ public class PlayerController implements Initializable {
 
     private static Player selectedPlayer;
 
+    /**
+     * pass player int scene
+     * @param player
+     */
     public static void initData(Player player)
     {
         selectedPlayer = player;
     }
 
-
+    /**
+     * change scenes
+     * @param actionEvent
+     * @throws IOException
+     */
     public void changeView(javafx.event.ActionEvent actionEvent) throws IOException {
         SceneChange.changeScene(actionEvent, "../views/TeamView.fxml", "RaptorsRoster - Select A Player",null);
     }
 
+    /**
+     * update elements with player info
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         playerPicture.setImage(new Image(selectedPlayer.getImgURL()));

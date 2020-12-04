@@ -13,9 +13,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
- * controls the chart view
- */
 public class TeamController implements Initializable {
 
     @FXML
@@ -24,12 +21,22 @@ public class TeamController implements Initializable {
     @FXML
     private ImageView playerPicture;
 
+    /**
+     * changes scenes and passes selected player object through
+     * @param actionEvent
+     * @throws IOException
+     */
     public void changeView(javafx.event.ActionEvent actionEvent) throws IOException {
         if (playerListView.getSelectionModel().getSelectedItem() != null) {
             SceneChange.changeScene(actionEvent, "../views/PlayerView.fxml", "RaptorsRoster - Player Info", playerListView.getSelectionModel().getSelectedItem());
         }
     }
 
+    /**
+     * populates the list view and adds the listener
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         playerListView.getSelectionModel().selectedItemProperty().addListener(

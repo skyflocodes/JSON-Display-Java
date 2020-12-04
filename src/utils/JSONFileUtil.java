@@ -14,6 +14,11 @@ import java.util.Arrays;
 import java.util.Collection;
 
 public class JSONFileUtil {
+    /**
+     * get an array list of type player fom the json entered
+     * @param jsonFileName
+     * @return
+     */
     public static ArrayList<Player> getRoster(String jsonFileName)
     {
         ArrayList<Player> players = new ArrayList<>();
