@@ -1,6 +1,9 @@
 /*sets the css for the base of the app*/
 .root {
-    -fx-background-color: #282828;
+    -fx-background-image: url('Background.png');
+    -fx-background-repeat: stretch;
+    -fx-background-size: 750 440;
+    -fx-background-position: center center;
 }
 
 .button{
