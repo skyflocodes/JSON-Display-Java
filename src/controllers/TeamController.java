@@ -25,7 +25,9 @@ public class TeamController implements Initializable {
     private ImageView playerPicture;
 
     public void changeView(javafx.event.ActionEvent actionEvent) throws IOException {
-        SceneChange.changeScene(actionEvent, "../views/PlayerView.fxml", "RaptorsRoster - Player Info");
+        if (playerListView.getSelectionModel().getSelectedItem() != null) {
+            SceneChange.changeScene(actionEvent, "../views/PlayerView.fxml", "RaptorsRoster - Player Info", playerListView.getSelectionModel().getSelectedItem());
+        }
     }
 
     @Override

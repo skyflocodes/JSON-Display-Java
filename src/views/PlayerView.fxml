@@ -9,12 +9,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="750.0" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PlayerController">
    <children>
-      <Label alignment="CENTER" layoutX="584.0" layoutY="1.0" prefHeight="173.0" prefWidth="153.0" text="00" textFill="WHITE">
+      <Label fx:id="numLabel" alignment="CENTER" layoutX="584.0" layoutY="1.0" prefHeight="173.0" prefWidth="153.0" text="00" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="140.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="14.0" layoutY="29.0" prefHeight="118.0" prefWidth="575.0" text="PLAYER NAME" textAlignment="CENTER" textFill="#bc0000" textOverrun="CLIP" underline="true">
+      <Label fx:id="nameLabel" alignment="CENTER" layoutX="14.0" layoutY="29.0" prefHeight="118.0" prefWidth="575.0" text="PLAYER NAME" textAlignment="CENTER" textFill="#bc0000" textOverrun="CLIP" underline="true">
          <font>
             <Font name="Agency FB Bold" size="95.0" />
          </font>
@@ -24,7 +24,7 @@
             <Font name="Agency FB Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="168.0" layoutY="165.0" text="PLAYER COURT" textFill="WHITE">
+      <Label fx:id="positionLabel" layoutX="168.0" layoutY="165.0" text="PLAYER COURT" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="24.0" />
          </font>
@@ -34,7 +34,7 @@
             <Font name="Agency FB Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="184.0" layoutY="209.0" text="0000" textFill="WHITE">
+      <Label fx:id="birthLabel" layoutX="184.0" layoutY="209.0" text="0000" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="24.0" />
          </font>
@@ -44,7 +44,7 @@
             <Font name="Agency FB Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="401.0" layoutY="165.0" text="000lbs" textFill="WHITE">
+      <Label fx:id="weightLabel" layoutX="401.0" layoutY="165.0" text="000lbs" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="24.0" />
          </font>
@@ -54,7 +54,7 @@
             <Font name="Agency FB Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="367.0" layoutY="209.0" text="00" textFill="WHITE">
+      <Label fx:id="ageLabel" layoutX="367.0" layoutY="209.0" text="00" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="24.0" />
          </font>
@@ -64,7 +64,7 @@
             <Font name="Agency FB Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="283.0" layoutY="250.0" text="PLAYER SCHOOL" textFill="WHITE">
+      <Label fx:id="collegeLabel" layoutX="283.0" layoutY="250.0" text="PLAYER SCHOOL" textFill="WHITE">
          <font>
             <Font name="Agency FB Bold" size="24.0" />
          </font>

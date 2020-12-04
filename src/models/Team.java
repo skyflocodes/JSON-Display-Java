@@ -15,10 +15,10 @@ public class Team {
     }
 
     public void setPlayers(Player[] players) {
-        if((players.getClass()).equals(Player.class) && players[0].getName().equals("Chris Boucher")) {
+        if((players.getClass()).equals(Player.class)) {
             this.players = players;
         }else {
-            throw new IllegalArgumentException("bruh");
+            throw new IllegalArgumentException("player class not valid");
         }
     }
 }
